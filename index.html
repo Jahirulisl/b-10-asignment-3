@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- manrope google font   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!-- daisyui cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- style font family  -->
+     <style>
+         .font-manrope{
+            font-family: "Manrope", sans-serif;
+         } 
+     </style>
+     <!-- tailwind color  -->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford:'#da373d',
+               'bg-primary':'#ABEF5F',
+               'bike-primary-bg':'rgba(231, 111, 81, 0.1)',
+              }
+            }
+          }
+        }
+
+      </script>
+</head>
+<body>
+    <header class="my-2">
+        <nav>
+            <div class="navbar bg-red-50">
+                 <div class="navbar-start">
+                   <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    </div> 
+                    </div>
+                  <a class="btn btn-ghost text-3xl">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li class="text-slate-400"><a>Service</a></li>
+                    <li  class="text-slate-400"><a>Portfolio</a></li>
+                    <li  class="text-slate-400"><a>Blog</a></li>
+                    <li  class="text-slate-400"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-success rounded-full text-black ">Book Consult</a>
+                </div>
+              </div>
+              <!-- Banar section  -->
+               <div>
+                <div class="card bg-base-100 shadow-xl mx-5 ">
+                  <figure class="px-10 pt-10 ">
+                    <img
+                      src="assets/banner.png"
+                      alt="Shoes"
+                      class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title text-6xl font-extrabold">A barn house of this design has a striking appearance</h2>
+                    <p class="text-sm ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <div class="card-actions">
+                      <button class="btn bg-lime-200">View Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+      <!-- web design thought  -->
+      <section>
+        <div class="mt-"><img src="assets/Vector.png" alt=""></div>
+        <div class="hero bg-base-200 min-h-screen">
+        
+          <div class="hero-content flex-col lg:flex-row-reverse">
+           
+            <div>
+              <h1 class="text-5xl font-bold">Box Office News!</h1>
+              <p class="py-6">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                quasi. In deleniti eaque aut repudiandae et a id nisi.
+              </p>
+              <button class="btn btn-primary">Get Started</button>
+            </div>
+            <img
+              src="assets/Rectangle.png"
+              class="max-w-sm rounded-lg shadow-2xl" />
+
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+</body>
+</html>
